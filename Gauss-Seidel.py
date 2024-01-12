@@ -28,3 +28,4 @@ def GaussSeidel(A: list[float], b: list[float], x0: list[float], e=10**-4):
     return DL, U, M_gs.max(), x_norm, i, x.round(3)
     # else:
     #    return -1
+
